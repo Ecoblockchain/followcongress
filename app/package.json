@@ -1,0 +1,52 @@
+{
+  "name": "bettertomato",
+  "version": "1.0.0",
+  "description": "A garden journal",
+  "author": "Jacob Hansson",
+  "license": "GPL",
+  "scripts": {
+    "develop": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --progress --colors --content-base www/",
+    "build": "./node_modules/webpack/bin/webpack.js -p",
+    "deploy": "firebase deploy"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "core-js": "2.0.1",
+    "css-loader": "^0.25.0",
+    "html-loader": "^0.4.4",
+    "node-sass": "^3.10.1",
+    "phantomjs": "^1.9.19",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.3.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-stage-1": "~6.5.0",
+    "firebase": "^3.5.1",
+    "graphql": "^0.6.1",
+    "immutable": "~3.7.6",
+    "keymirror": "~0.1.1",
+    "lodash": "^4.13.1",
+    "loose-envify": "~1.1.0",
+    "material-ui": "^0.16.1",
+    "moment": "^2.12.0",
+    "pikaday": "^1.4.0",
+    "react": "^15.3.2",
+    "react-dom": "~15.3.2",
+    "react-redux": "~4.4.5",
+    "react-router": "~2.0.0",
+    "react-stripe-checkout": "^2.2.5",
+    "react-tap-event-plugin": "^1.0.0",
+    "redux": "~3.3.1",
+    "rx-lite": "^4.0.8",
+    "superagent": "^1.8.3",
+    "uuid": "~2.0.1",
+    "webpack": "^1.13.2"
+  }
+}

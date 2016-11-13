@@ -1,0 +1,22 @@
+.form-radio {
+  padding-left: 20px;
+  margin: 15px 0;
+  vertical-align: middle;
+
+  label {
+    font-weight: 600;
+  }
+  input {
+    float: left;
+    margin: 5px 0 0 -20px;
+    vertical-align: middle;
+  }
+  svg {
+    float:left;
+  }
+}
+
+.loading {
+  text-align:center;
+  margin: 15px 0;
+}

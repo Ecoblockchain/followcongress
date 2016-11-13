@@ -1,0 +1,89 @@
+@import 'typography';
+@import 'layout';
+@import 'fab';
+@import 'form';
+
+body {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(0,0,0,.87);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+
+footer {
+  margin-top:25px;
+  margin-left:5px;
+  font-size:12px;
+  color:#444;
+
+  a {
+    color: #444;
+    text-decoration: underline;
+    margin-left: 5px;
+  }
+}
+
+.fb-login, .fb-login:visited {
+  position: relative;
+  z-index: 1;
+  overflow: visible;
+  display: inline-block;
+  padding: 0.8em 1em 0.8em;
+  border: 1px solid #384985;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  font: bold 14px/normal 'roboto', arial, sans-serif;
+  text-shadow: 1px 1px 1px #466ab6;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #eaecf9;
+  background-color: #3b5998;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #384985;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #384985;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #384985;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.fb-login:hover,
+.fb-login:focus,
+.fb-login:active {
+  border-color: #777 #777 #666;
+}
+
+.fb-login:active {
+  border-color: #aaa;
+  background: #ddd;
+  filter: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+#landing-tron {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 150px;
+
+  p {
+    padding: 20px 10px 30px;
+    font: 25px/normal 'Roboto';
+  }
+}
